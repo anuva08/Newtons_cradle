@@ -36,7 +36,9 @@ function setup() {
        rope3 = new Rope (bob3.body,roof.body,-bob3.radius*0.4,0);
      rope4 = new Rope (bob4.body,roof.body,bob4.radius*0.5,0);
   rope5 = new Rope (bob5.body,roof.body,bob5.radius*1.5,0);
-  rope6 = new Rope (bob6.body,roof.body,bob6.radius*2.6,0);
+  rope6 = new Rope (bob6.body,roof.body,bob6.radius*2.6,0); 
+	
+	Engine.run(engine);
 }
 
 
